@@ -21,7 +21,7 @@ touches what needs fixing — you stay in control.
 | Format preserved exactly | ✅ | ❌ |
 
 ## How It Works
-1. Paste a LinkedIn, Naukri, or company career page URL
+1. Paste a LinkedIn or Naukri URL
 2. Upload your CV as Word Doc
 3. Gemini AI identifies weak bullets and rewrites only those
 4. Accept or reject each suggestion — score updates live
@@ -30,7 +30,6 @@ touches what needs fixing — you stay in control.
 ## Tech Stack
 - Python + Streamlit
 - Google Gemini 2.5 Flash
-- pdfplumber — CV text extraction
 - python-docx — Word document generation
 - BeautifulSoup — JD fetching
 
